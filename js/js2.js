@@ -134,7 +134,7 @@ function lose() {
       document.getElementById("button3").disabled = true;
       document.getElementById("gameon").disabled = true;
       document.body.style.backgroundColor = "#f3f3f3";
-      document.body.style.backgroundImage = "url('content/gameover1.jpg')";
+      document.body.style.backgroundImage = "url('https://github.com/tumeex/FruitGame.github.io/blob/69c55f0b8b6bcf64d181e5831c527bda25e0db94/content/gameover1.JPG')";
       var audio = new Audio('content/sad_violin.mp3');
       audio.play();
     }
